@@ -1,0 +1,42 @@
+q:
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+a:
+diff tool can help to identify the newly added change to the code so it can help to indetify newly introduced bug
+
+q:
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+a:
+keeping track of the progress and availablility of previous versions
+
+q:
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+a:
+Saving changes too early may result a lot of versions which in turn would cause mess when searching the history
+
+tip: The difference between say Dropbox and GIT is that git saves versions of repositories(collections of files), but Dropbox saves versions of individual files. That improves the flexibility of versioning with multiple interrelated files.
+
+q:
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+a:
+To keep track of logical differences, not single file differences
+
+info:
+git clone - downloads the entire history of the repository including all commits
+
+q:
+How can you use the commands git log and git diff to view the history of files?
+a:
+git log will show when the file is changed and git diff will show how the file(s) are changed
+
+tip:
+git chekout - temporarily going back to any commit. e.g for going back to commits to identify a bug 
+
+q: 
+How might using version control make you more confident to make changes that could break something?
+a:
+Knowing that git checkout allows you go back to any commit you have made you become more couregous to do something
+
+q:
+Now that you have your workspace set up, what do you want to try using Git for?
+a:
+I want to try git using for my Android project!!!
