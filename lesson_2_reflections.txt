@@ -7,3 +7,12 @@ q:
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 a:
 Adding files to the staging area allows making different commits at a time easyly, + it allows to avoid commiting unnecessary files to the repository accidently.
+
+tip:
+git diff - difference between working directory and staging area
+git diff --staged - difference between staging area and most recent commit
+
+q:
+How can you use the staging area to make sure you have one commit per logical change?
+a:
+Adding logically related files to the staging area to make sure right files for the commit
