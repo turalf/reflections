@@ -7,3 +7,15 @@ q:
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 a:
 remote changes may contain a lot of updates from diffent people working on the same project. If the programmer is not ready for the change programmer might get confused
+
+q:
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+a:
+branch is the way of diving a repository into multiple pathes. 
+cloning is way of copying repository from one machine to another or from one directory to another inside a loccal machine 
+forking is a way of copying repository from someone's github account to yours
+
+q:
+What is the benefit of having a copy of the last known state of the remote stored locally?
+a:
+The benefit is that you can compare and contrast to the remote branch while you are not online 
