@@ -19,3 +19,12 @@ q:
 What is the benefit of having a copy of the last known state of the remote stored locally?
 a:
 The benefit is that you can compare and contrast to the remote branch while you are not online 
+
+q:
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+a: Creating branches for asking stuff for changes and charing this with pull requests via git hub allows your collegues to have a look at the  change before actual merge
+
+q:
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+a:
+When you make changes in a separate branch that makes you feel confident about the change without deteriorating the working version. However if you are sure about the change and you are alone with the part of the project then you can make a change directly 
